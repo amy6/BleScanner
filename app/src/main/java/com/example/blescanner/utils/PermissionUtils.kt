@@ -1,4 +1,4 @@
-package com.example.blescanner
+package com.example.blescanner.utils
 
 import android.Manifest
 import android.app.Activity

@@ -1,4 +1,4 @@
-package com.example.blescanner
+package com.example.blescanner.ui.main
 
 import android.bluetooth.BluetoothAdapter
 import android.bluetooth.BluetoothManager
@@ -8,7 +8,9 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.blescanner.ui.main.MainFragment
+import com.example.blescanner.R
+import com.example.blescanner.toastShort
+import com.example.blescanner.utils.*
 import kotlinx.coroutines.*
 import kotlin.coroutines.CoroutineContext
 
